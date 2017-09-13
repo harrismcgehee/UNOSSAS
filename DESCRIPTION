@@ -1,0 +1,25 @@
+Package: UNOSSAS
+Type: Package
+Title: Connect to SAS server and run SAS code from R interface
+Version: 0.2.0
+Authors@R: c(
+    person("Harris", "McGehee", , "mcgehee.harris@gmail.com", role = c("aut", "cre")),
+    person("UNOS", role = c("cph"))
+  )
+URL: https://github.com/rstats-db/odbc
+Maintainer@R: person("Harris", "McGehee", , "mcgehee.harris@gmail.com", role = c("aut", "cre"))
+Description: Connect to SAS server and run SAS code from R interface
+License: MIT + file LICENSE
+URL: https://github.com/harrismcgehee/UNOSSAS
+BugReports: https://github.com/harrismcgehee/UNOSSAS/issues
+SystemRequirements: SAS Integration Technologies jars (requires SAS license)
+Encoding: UTF-8
+LazyData: true
+Suggests: testthat
+Imports: rJava,
+    utils,
+    purrr,
+    dplyr,
+    magrittr,
+    UNOS
+RoxygenNote: 6.0.1

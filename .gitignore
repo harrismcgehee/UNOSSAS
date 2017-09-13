@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+inst/
+release_to_UNOS_CRAN.Rmd
+NEWS
+NEWS.Rmd
+build.R
