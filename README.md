@@ -22,6 +22,6 @@ At the [United Network for Organ Sharing](https://www.unos.org/) (UNOS), we reco
 ```
 sas_connection <- conn_sas()
 log1 <- run_sas(sas_connection, "%let i = 1;")
-log2 <- run_sas(sas_connection, "%include 'G:/sourcelibs/include/initialize.sas';")
+log2 <- run_sas(sas_connection, "%include 'C:/initialize.sas';")
 sas_disconnect(sas_connection)
 ```
