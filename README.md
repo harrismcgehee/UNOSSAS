@@ -10,5 +10,9 @@ At the [United Network for Organ Sharing](https://www.unos.org/) (UNOS), we reco
     + `sas.security.jar`
     + `sas.svc.connection.jar`
     + `log4j-1.2.17.jar`
-
-You will also want to modify the `R/conn_sas.R` to set defaults for your environments.
++ You will also want to modify the `R/conn_sas.R` to set defaults for your environments.
++ You should update the `tests` folder
+    + `tests/testthat/test_run_sas.R`  
+        + `conn_sas()` calls need connection parameters  
+        + `run_sas(sc, "%include 'C:/initialize.sas';")` needs an actual file that SAS Server can read  
+    + `tests/testthat.R` is commented out
