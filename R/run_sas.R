@@ -32,7 +32,6 @@ run_sas <-  function(sas_conn
   stopifnot(is.character(submitCode))
 
   onLoad(.libPaths(),"UNOSSAS")
-  # rJava::.jpackage("UNOS")
 
   jsasLanguage <- sas_conn$iWorkspace$LanguageService()
   jsasLanguage$Submit(submitCode)

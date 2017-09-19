@@ -1,5 +1,4 @@
 devtools::use_package("rJava")
-devtools::use_package("UNOS")
 
 #' @title conn_sas will create a SAS connection
 #' @name conn_sas
@@ -30,11 +29,9 @@ conn_sas <-  function(username = Sys.getenv("USER")
                       , port){
 
   onLoad(.libPaths(),"UNOSSAS")
-  # rJava::.jpackage("UNOS")
 
 
   jclassID = rJava::.jnew("java/lang/String", rJava::.jfield("com/sas/services/connection/Server","S","CLSID_SAS"))
-  #  jclassID = rJava::.jnew("java/lang/String", "440196d4-90f0-11d0-9f41-00a024bb830c")
 
   jhost = rJava::.jnew("java/lang/String", host)
   jserver <- rJava::.jnew("com/sas/services/connection/BridgeServer",jclassID,jhost,port)
