@@ -1,10 +1,11 @@
 Package: UNOSSAS
 Type: Package
 Title: Connect to SAS server and run SAS code from R interface
-Version: 0.2.0
+Version: 0.2.0.9000
 Authors@R: c(
     person("Harris", "McGehee", , "mcgehee.harris@gmail.com", role = c("aut", "cre")),
-    person("UNOS", role = c("cph"))
+    person("UNOS", role = c("cph")),
+    person("SAS Institute Inc.", role = c("cph"), comment = "SAS jar files")
   )
 URL: https://github.com/rstats-db/odbc
 Maintainer@R: person("Harris", "McGehee", , "mcgehee.harris@gmail.com", role = c("aut", "cre"))
