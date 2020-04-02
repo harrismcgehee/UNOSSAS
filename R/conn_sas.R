@@ -1,4 +1,4 @@
-devtools::use_package("rJava")
+# usethis::use_package("rJava")
 
 #' @title conn_sas will create a SAS connection
 #' @name conn_sas

@@ -1,5 +1,5 @@
-devtools::use_package("rJava")
-devtools::use_package("magrittr")
+# usethis::use_package("rJava")
+# usethis::use_package("magrittr")
 
 # https://github.com/CeON/rJavaPackageExample/blob/75ec9679d0c1f8ddd67ac84d2cf16c0680f712f5/R/onLoad.R
 

@@ -1,5 +1,5 @@
-devtools::use_package("utils")
-devtools::use_package("rJava")
+# usethis::use_package("utils")
+# usethis::use_package("rJava")
 
 
 #' @title run_sas will execute SAS code on your workspace connection
@@ -47,8 +47,8 @@ run_sas <-  function(sas_conn
   sl
 }
 
-devtools::use_package("purrr")
-devtools::use_package("dplyr")
+# usethis::use_package("purrr")
+# usethis::use_package("dplyr")
 
 #' @title get_sas_log will retrieve the log of the statements just run
 #' @name get_sas_log
